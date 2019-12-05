@@ -18,5 +18,5 @@ steps:
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
   
-- script: chmod 777 build.sh & bash -c build.sh
+- script: chmod 777 build.sh & bash build.sh
   displayName: 'Run a custom script'
